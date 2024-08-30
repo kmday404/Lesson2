@@ -27,7 +27,7 @@ html, body {
   }
 
   header {
-    background: url(space-background.jpg);
+    background: url(space-background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -35,9 +35,20 @@ html, body {
   }
 
   section {
-    background: tomato;
-    height: 80vh;
+    background: url(space-background2.jpg) no-repeat center;
+    background-size: cover;
+    height: 20vh;
     display: flex;
     align-items: space-around;
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
+  footer {
+    background: peachpuff;
+    z-index: 1;
+    bottom: 50px;
+    height:fit-content;
+    width: fit-content;
+
+  }
