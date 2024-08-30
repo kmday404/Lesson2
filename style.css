@@ -26,27 +26,18 @@ html, body {
     font-size: 2rem;
   }
 
-  .navLinks::before {
-    content: ;
-  }
-
   header {
-    background: url(space-background.jpg) no-repeat center center; 
+    background: url(space-background.jpg);
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    height: 400px;
     text-align: center; 
   }
 
-  .container{
+  section {
     background: tomato;
     height: 80vh;
     display: flex;
     align-items: space-around;
   }
 
-  #logo {
-    z-index: 500;
-    background-color: black;
-  }
-
-  
