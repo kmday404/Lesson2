@@ -14,41 +14,69 @@ html, body {
     justify-content: flex-end;
     gap: 50px;
     font-family: fantasy;
-  }
+    text-wrap: balance;
+}
 
-  a {
+a {
     text-decoration: none;
     font-size: 1rem;
     color:aliceblue;
-  
 }
-  a::first-letter {
-    font-size: 2rem;
-  }
 
-  header {
-    background: url(space-background.jpg) no-repeat;
+a::first-letter {
+    font-size: 2rem;
+}
+
+header {
+    background: url(space-image1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
     text-align: center; 
-  }
+}
 
-  section {
-    background: url(space-background2.jpg) no-repeat center;
-    background-size: cover;
-    height: 20vh;
+section {
     display: flex;
     align-items: space-around;
     color:aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-  }
+    font-family: monospace;
+    height: 100vh
+}
 
-  footer {
+.S1 {
+    background: url(space-image2.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+.S2 {
+    background: url(space-image3.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+.S3 {
+    background: url(space-image1.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+.S4 {
+    background: url(space-image2.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+.S5 {
+    background: url(space-image3.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+footer {
     background: peachpuff;
     z-index: 1;
     bottom: 50px;
     height:fit-content;
     width: fit-content;
-
-  }
+}
