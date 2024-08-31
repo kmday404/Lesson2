@@ -32,17 +32,14 @@ header {
     background-size: cover;
     background-position: center;
     height: 400px;
-    text-align: center; 
 }
 
 section {
     display: flex;
     color:aliceblue;
     font-family: monospace;
-    flex-wrap: wrap;
     flex-direction: column;
     height: 400px;
-
 }
 
 .S1 {
@@ -80,7 +77,9 @@ h2 {
 
 .text {
     margin: 25px;
-    width: 500px;
+    background: none;
+    flex-wrap:wrap;
+    padding-right: 200px;
 }
 
 footer {
