@@ -94,6 +94,7 @@ footer {
     background: transparent;
     position:relative;
     color:aliceblue;
+    font-family: monospace;
 }
 
 #logo {
