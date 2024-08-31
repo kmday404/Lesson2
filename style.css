@@ -14,7 +14,7 @@ html, body {
     justify-content: flex-end;
     gap: 50px;
     font-family: fantasy;
-    text-wrap: balance;
+    flex-wrap: wrap;
 }
 
 a {
@@ -37,10 +37,10 @@ header {
 
 section {
     display: flex;
-    align-items: space-around;
     color:aliceblue;
     font-family: monospace;
-    height: 100vh
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .S1 {
@@ -71,26 +71,33 @@ section {
     background: url(space-image3.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
+    position:relative;
 }
 
 h2 {
     border: 2px solid white;
+    padding: 30px;
+    width:fit-content;
+    margin: 15px;
+}
+
+.text {
+    flex-wrap: wrap;
+    width: 100px;
+    display: flex;
+
 
 }
 
 footer {
-    background: peachpuff;
-    z-index: 1;
+    background: transparent;
     position:relative;
-    height:fit-content;
-    width: fit-content;
-
+    color:aliceblue;
 }
 
 #logo {
     position:absolute;
-    bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    bottom: 1px;
+    left: 600px;
 }
+
