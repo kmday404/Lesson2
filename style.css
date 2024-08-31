@@ -41,52 +41,46 @@ section {
     font-family: monospace;
     flex-wrap: wrap;
     flex-direction: column;
+    height: 400px;
+
 }
 
 .S1 {
     background: url(space-image2.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
 }
 
 .S2 {
     background: url(space-image3.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
 }
 
 .S3 {
     background: url(space-image1.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
 }
 
 .S4 {
     background: url(space-image2.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
 }
 
 .S5 {
     background: url(space-image3.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
-    position:relative;
 }
 
 h2 {
     border: 2px solid white;
     padding: 30px;
     width:fit-content;
+    height:fit-content;
     margin: 15px;
 }
 
 .text {
-    flex-wrap: wrap;
-    width: 100px;
-    display: flex;
-
-
+    margin: 25px;
+    width: 500px;
 }
 
 footer {
@@ -98,6 +92,6 @@ footer {
 #logo {
     position:absolute;
     bottom: 1px;
-    left: 600px;
+    right: 2px;
 }
 
